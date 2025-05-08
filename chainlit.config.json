@@ -1,0 +1,9 @@
+{
+  "ui": {
+    "name": "CSE AI Agent",
+    "logo": "logo.png",
+    "theme": {
+      "primaryColor": "#132d65"
+    }
+  }
+}
