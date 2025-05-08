@@ -94,9 +94,9 @@ async def on_message(message: cl.Message):
     query = message.content
 
     # Check if there are exactly 2 images attached
-    if len(message.elements) == 2 and all(element.type == "image" for element in message.elements):
+    if len(message.elements) == 3 and all(element.type == "image" for element in message.elements):
         time.sleep(7)
-        # User sent text with 2 images, respond with the answer.jpg image
+        # User sent text with 3 images, respond with the answer.jpg image
         answer_image_path = "answer.jpg"
 
         if os.path.exists(answer_image_path):
